@@ -1,8 +1,5 @@
 /* Name: Paul Patryas
-   Course number: Introduction to C Programming - COP3223
-   Section number: 17 Fall 0R04 - Online
-   Assignment: Project 2
-   Date: 03 Sep 2017 */
+   Date: 03 Sep 2017 */ 
 
 
 // preprocessor directive

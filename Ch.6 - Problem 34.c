@@ -1,3 +1,5 @@
+// old project from 2016
+
 #include <stdio.h>
 
 int getAverag(int);

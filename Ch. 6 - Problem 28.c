@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdbool.h>
 
+//old project from June 2016
+
 // declare bool function prototype
 bool array(int arr1[], int arr2[]);
 void getResults(bool);

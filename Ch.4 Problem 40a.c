@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+// old project from 2016
 #define INCOMETAX .125
 #define FEDERALTAX .25
 #define STATETAX .10

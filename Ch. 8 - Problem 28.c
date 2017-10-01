@@ -1,12 +1,13 @@
 #include <stdio.h>
 #include <stdbool.h>
+// old project from June 2016
 
 bool testArr(int arr1[], int arr2[]);
 void printResult(bool);
 
 int main() {
     int arr1[] = {14, 34, 1, 90, 23, 6, 39, 17, 18, 209};
-    int arr2[] = {14, 34, 1, 90, 23, 6, 39, 17, 18, 209};
+    int arr2[] = {14, 34, 1, 100, 23, 6, 39, 17, 18, 209};
 
     puts("Array A\t\t Array B");
     for (int i = 0; i < 10; i++) {

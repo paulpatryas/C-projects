@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdbool.h>
-
+// old project from 2016
 void getLargest(int *tempRange, int *tempMax, int *tempFreq);
 void printResult(int, int);
 

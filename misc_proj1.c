@@ -1,14 +1,8 @@
-/* Name: Paul Patryas
-   Course number: Introduction to C Programming - COP3223
-   Section number: 17 Fall 0R04 - Online
-   Assignment: Project 1
-   Date: 27 Aug 2017 */
-
 // preprocessor directive
 #include <stdio.h>
 
 // define constants
-#define KILOMETERS_TO_SPAIN 7228
+#define KILOMETERS_TO_SPAIN 7228 
 #define ORANGES_PER_CREW_MEMBER 0.5
 
 // declare functions that takes pointers as parameters
@@ -20,10 +14,10 @@ void clean_terminal(void);
 
 int main() {
 
-	// initialize user input variables
-	float how_many_kilometers_perDay, how_many_crewMembers, trip_length, total_oranges;
-	// initialize character buffer for checked input
-	char buffer;
+    // initialize user input variables
+     float how_many_kilometers_perDay, how_many_crewMembers, trip_length, total_oranges;
+    // initialize character buffer for checked input
+    char buffer;
 
     // asks user for input
     printf("How many kilometers can your ship travel in one day?\n");
@@ -46,7 +40,7 @@ int main() {
     check_input(&flag, &how_many_crewMembers, &buffer);
 
     // initialize variables and assign it by conversion of constants and user input using arithmetic
-	trip_length = KILOMETERS_TO_SPAIN / how_many_kilometers_perDay;
+    trip_length = KILOMETERS_TO_SPAIN / how_many_kilometers_perDay;
     total_oranges = ORANGES_PER_CREW_MEMBER * how_many_crewMembers;
 
     // passes trip_length and total_oranges_needed as arguments to function
