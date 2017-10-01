@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 // define constants
-#define KILOMETERS_TO_SPAIN 7228
+#define KILOMETERS_TO_SPAIN 7228 
 #define ORANGES_PER_CREW_MEMBER 0.5
 
 // declare functions that takes pointers as parameters
