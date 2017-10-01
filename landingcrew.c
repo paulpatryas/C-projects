@@ -1,6 +1,6 @@
 /* Name: Paul Patryas
    Course number: Introduction to C Programming - COP3223
-   Section number: 17 Fall 0R04 - Online
+   Section number: 17 Fall 0R04 - Online 
    Assignment: Project 4
    Date: 24 Sep 2017 */
 
