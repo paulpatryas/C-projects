@@ -46,7 +46,7 @@ int main() {
     check_input(&flag, &how_many_crewMembers, &buffer);
 
     // initialize variables and assign it by conversion of constants and user input using arithmetic
-	trip_length = KILOMETERS_TO_SPAIN / how_many_kilometers_perDay;
+    trip_length = KILOMETERS_TO_SPAIN / how_many_kilometers_perDay;
     total_oranges = ORANGES_PER_CREW_MEMBER * how_many_crewMembers;
 
     // passes trip_length and total_oranges_needed as arguments to function
