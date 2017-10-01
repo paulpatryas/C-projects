@@ -1,9 +1,3 @@
-/* Name: Paul Patryas
-   Course number: Introduction to C Programming - COP3223
-   Section number: 17 Fall 0R04 - Online
-   Assignment: Project 1
-   Date: 27 Aug 2017 */
-
 // preprocessor directive
 #include <stdio.h>
 
@@ -20,10 +14,10 @@ void clean_terminal(void);
 
 int main() {
 
-	// initialize user input variables
-	float how_many_kilometers_perDay, how_many_crewMembers, trip_length, total_oranges;
-	// initialize character buffer for checked input
-	char buffer;
+    // initialize user input variables
+     float how_many_kilometers_perDay, how_many_crewMembers, trip_length, total_oranges;
+    // initialize character buffer for checked input
+    char buffer;
 
     // asks user for input
     printf("How many kilometers can your ship travel in one day?\n");
