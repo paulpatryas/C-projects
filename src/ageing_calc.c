@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 // old project from 2016
-void getCalculatedAge();
+void getCalculatedAge(); 
 void cleanInput();
 
 int main() {
