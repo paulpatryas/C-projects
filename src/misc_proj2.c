@@ -1,4 +1,5 @@
-/* Name: Paul Patryas
+/* Name: Paul Patryas 
+   Another simple program
    Date: 20 Sep 2017 */
 
 // preprocessor directive
