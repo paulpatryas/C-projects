@@ -1,3 +1,6 @@
+/* By: Paul Patryas
+Date: 27 Aug 2017 */
+
 // preprocessor directive
 #include <stdio.h>
 

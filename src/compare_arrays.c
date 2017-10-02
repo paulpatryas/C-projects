@@ -1,3 +1,6 @@
+/* By: Paul Patryas
+   Simple program comparing arrays */
+
 #include <stdio.h>
 #include <stdbool.h>
 
@@ -10,7 +13,7 @@ void getResults(bool);
 int main() {
 
     int array1[] = {90, 61, 77, 201, 503, 35, 900, 190, 10, 23};
-    int array2[] = {90, 61, 77, 21, 503, 35, 900, 190, 10, 23};
+    int array2[] = {90, 61, 77, 21, 503, 35, 90, 190, 10, 23};
 
     puts("Array A\t\t Array B\n");
     for (int i = 0; i < 10; i++) {
