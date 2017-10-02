@@ -1,6 +1,6 @@
 /* By: Paul Patryas
    Infamous FizzBuzz program */
-
+ 
 #include <stdio.h>
 
 int main() {
