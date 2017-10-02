@@ -1,6 +1,6 @@
 // Programming exercise 2.3
 #include <stdio.h>
-// old project from 2016
+// old project from 2016 
 int main(void)
 {
 
