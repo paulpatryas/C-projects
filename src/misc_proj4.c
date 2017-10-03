@@ -33,8 +33,7 @@ void checkObservedDays(){
     printf("How many days will you observe the landing crew?\n");
     int observed_days;
     char buffer;
-    // initialize flag and assign it to the scanf function
-    // store possible non numeric characters inputted by user
+    
     int flag = scanf("%f%c", &observed_days, &buffer);
     checkForNonNumericCharacters(&flag, &observed_days, &buffer);
     checkPostiveNumbersWithBound(&flag, &observed_days, &buffer);
@@ -44,7 +43,7 @@ void checkObservedDays(){
 void loopObservedDays(float *b){
     float how_many_trips;
     char buffer;
-    // out of do...while loop and into for loops
+   
     for (int i = 0; i < *b; i++) {
         printf("\nHow many trips were completed in day #%d?\n", i+1);
         int flag = scanf("%f%c", &how_many_trips, &buffer);
@@ -52,7 +51,6 @@ void loopObservedDays(float *b){
         checkPostiveNumbersWithBound(&flag, &how_many_trips, &buffer);
         loopHowManyTrips(&how_many_trips);
     }
-
 }
 
 void loopHowManyTrips(float *b) {
@@ -75,21 +73,20 @@ void printResult(float *a, float *b) {
     *a = 0;
 }
 
-// function that takes pointers as parameters
+
 float checkForNonNumericCharacters(int *a, float *b, char *c){
-    do {
-        if (*a != 2 || *c != '\n'){
-            printf("Input error of non numeric characters. Please enter a positive number\n");
-            cleanInput();
-            *a = scanf("%f%c", &*b, &*c);
-        }
-        else
-            break;
-       }while(1); // continue do...while loop until false
+   do {
+      if (*a != 2 || *c != '\n'){
+         printf("Input error of non numeric characters. Please enter a positive number\n");
+         cleanInput();
+         *a = scanf("%f%c", &*b, &*c);
+       }
+       else
+         break;
+   }while(1); // continue do...while loop until false
     return *b;
 }
 
-// function that takes pointers as parameters
 float checkPostiveNumbersWithBound(int *a, float *b, char *c){
     while(!(0 <= *b && *b <= 10)){
         printf("Please enter a positive number between 0 and 10\n");
