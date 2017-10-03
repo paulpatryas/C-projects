@@ -1,5 +1,5 @@
-/* Name: Paul Patryas
-   Another misc project
+ /* Name: Paul Patryas
+   Another misc project  
    Date: 24 Sep 2017 */
 
 #include<stdio.h>
