@@ -66,21 +66,21 @@ float checkForNonNumericCharacters(int *a, float *b, char *c){
             printf("Input error of non numeric characters. Please enter a positive number\n");
             cleanInput();
             *a = scanf("%f%c", &*b, &*c);
-            return *b;
         }
         else
             break;
        }while(1); // continue do...while loop until false
+    return *b;
 }
 
 // function that takes pointers as parameters
 float checkPostiveNumbersWithBound(int *a, float *b, char *c){
     while(!(0 <= *b && *b <= 10)){
         printf("Please enter a positive number between 0 and 10\n");
-        *a = scanf("%f%c", &*b, *&c)'
+        *a = scanf("%f%c", &*b, *&c);
         checkForNonNumericCharacters(&*a,&*b,&*c);
-        return *b;
     }
+    return *b;
 }
 
 
