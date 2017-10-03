@@ -1,5 +1,5 @@
-/* Name: Paul Patryas
-   Another misc project
+ /* Name: Paul Patryas
+   Another misc project  
    Date: 24 Sep 2017 */
 
 #include<stdio.h>
@@ -77,7 +77,7 @@ float checkForNonNumericCharacters(int *a, float *b, char *c){
 float checkPostiveNumbersWithBound(int *a, float *b, char *c){
     while(!(0 <= *b && *b <= 10)){
         printf("Please enter a positive number between 0 and 10\n");
-        *a = scanf("%f%c", &*b, *&c)'
+        *a = scanf("%f%c", &*b, *&c);
         checkForNonNumericCharacters(&*a,&*b,&*c);
         return *b;
     }
