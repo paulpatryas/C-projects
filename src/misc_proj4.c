@@ -16,12 +16,9 @@ void loopHowManyTrips(float *b);
 void printResult(float *a, float *b);
 
 int main() {
-
-
-    checkObservedDays();
-
-    return 0;
-
+   checkObservedDays();
+   
+   return 0;
 }
 
 // initialize cleanup function
