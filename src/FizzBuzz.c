@@ -1,6 +1,6 @@
 /* By: Paul Patryas
    Infamous FizzBuzz program */
- 
+
 #include <stdio.h>
 
 int main() {
@@ -15,6 +15,8 @@ int main() {
         // if divisible by 3, print Fizz
         else if(i % 3 == 0)
             printf("%d is Fizz\n", i);
+        else
+            printf("%d\n", i);
     }
     return 0;
 }
