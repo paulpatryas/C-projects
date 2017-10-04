@@ -56,15 +56,16 @@ void loopObservedDays(float *a, char *b){
 }
 // loop for how many trips, defensive programming
 void loopHowManyTrips(float *b) {
-    float temp_how_many_trips = *b, trip_length, total; char buffer;
-    for (int j=0; j < temp_how_many_trips; j++) {
-        printf("How long was trip #%d in hours?\n", j+1);
+    int temp_counter = 0; float trip_length, total; char buffer;
+     while(temp_counter < *b){
+        printf("How long was trip #%d in hours?\n", temp_counter+1);
         int flag = scanf("%f%c", &trip_length, &buffer);
         checkForNonNumericCharacters(&flag, &trip_length, &buffer);
         checkPostiveNumbersWithBound(&flag, &trip_length, &buffer);
         total += trip_length;
+        temp_counter++;
     }
-    printResult(&total, &temp_how_many_trips);
+    printResult(&total, &*b);
 }
 // calculate average time and print out result
 void printResult(float *a, float *b) {
